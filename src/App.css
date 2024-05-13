@@ -1,0 +1,16 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("src/assets/images/pilat.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #e8dab2;
+  text-transform: capitalize;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+}

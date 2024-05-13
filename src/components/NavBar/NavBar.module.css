@@ -1,0 +1,23 @@
+.Navigation {
+display: flex;
+justify-content: space-around;
+margin: auto;
+padding: 0;
+list-style-type: none;
+}
+
+.Navigation img {
+    padding: 0.5rem ;
+    border-radius: 1.4rem;
+    background-color:  #ee6c4d;
+    list-style-type: none;
+    }
+    
+.Navigation::after {   
+    content: "";
+    width: 90%;
+    height: 0.2rem;
+    position: absolute;
+    top: 3.5rem;
+    background-color: #ee6c4d;
+}
